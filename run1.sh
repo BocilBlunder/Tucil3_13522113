@@ -1,4 +1,4 @@
 javac -d bin src/*.java
 cd bin
-java GUI
+java WordLadderGUI
 cd ..
