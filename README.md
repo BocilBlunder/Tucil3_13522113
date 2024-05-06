@@ -50,7 +50,7 @@ https://github.com/BocilBlunder/Tucil3_13522113.git
 ```
 ./run1
 ```
-- For Linux :
+- For Linux (Don't forget to change End of Line Sequence to LF) :
 ```
 chmod +x run1.sh
 ./run1.sh
@@ -60,7 +60,7 @@ chmod +x run1.sh
 ```
 ./run2
 ```
-- For Linux :
+- For Linux (Don't forget to change End of Line Sequence to LF) :
 ```
 chmod +x run2.sh
 ./run2.sh
