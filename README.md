@@ -50,7 +50,7 @@ https://github.com/BocilBlunder/Tucil3_13522113.git
 ```
 ./run1
 ```
-- For Linux or MacOs :
+- For Linux :
 ```
 chmod +x run1.sh
 ./run1.sh
@@ -60,7 +60,7 @@ chmod +x run1.sh
 ```
 ./run2
 ```
-- For Linux or MacOs :
+- For Linux :
 ```
 chmod +x run2.sh
 ./run2.sh
@@ -69,8 +69,9 @@ chmod +x run2.sh
 ## How to Use the Program
 1. **Start and End Word**: Input the start word and the end word.
 2. **Choose the Algorithm**: Select one of the three algorithms (UCS, GBFS, or A*) for solving the Word Ladder.
-3. **Execution**: Upon running, the program will display the path from the start word to the end word, if one exists, along with the execution time and the number of nodes visited during the search.
+3. **Execution**: The program will display the path from the start word to the end word, along with the execution time, the memory that been used, and the number of nodes visited during the search.
 
 ## Limitations
 - **Language Constraint**: This program currently supports only English valid words (from dictionary).
 - **Word Length Requirement**: Both the start and end words must have the same length.
+- **Word Format Requirement**: Both word input will be automatically change into lower case.
